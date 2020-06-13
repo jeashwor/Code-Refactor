@@ -1,3 +1,4 @@
+/* Main Page Styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,11 @@ body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+/* Header / Navigation Bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,10 +52,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Jumbotron Style Hero Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +60,31 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Main Section of Page with articles regarding Search Engine Optimization, Online Reputation Managment, adn Social Media Marketing. */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main section img {
+    max-height: 200px;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -69,12 +97,7 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Sidebar with Info regarding Lead Generation, Brand Awareness, and Cost Management. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,40 +109,23 @@ aside {
     background-color: #2589bd;
 }
 
-.breakout {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.breakout h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.breakout img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.box {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.box img {
-    max-height: 200px;
-}
-
-.box h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Page Footer with note, Page Year, and Full company Name */
 .footer {
     padding: 30px;
     clear: both;
